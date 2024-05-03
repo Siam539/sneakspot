@@ -21,7 +21,7 @@ require_once "header.php"
         </div>
     </div>
 </div>
-<!-- about end -->
+<!-- about end -->  
 <!-- service area start  -->
 <div class="choose-us-skill-area pt-100 pb-70 gray-bg">
     <div class="container">
@@ -61,8 +61,7 @@ require_once "header.php"
                             </div>
                             <div class="choose-text">
                                 <h3>Paiement sécurisé</h3>
-                                <p>Possibilité de payer en Twint / Cash</p>
-
+                                <p>Possibilité de payer <br> Twint / PayPal / Cash </p> 
                             </div>
                         </div>
                     </div>
@@ -88,7 +87,7 @@ require_once "header.php"
                                     Pellentesque mollis eros vel mattis
                                     tempor.</p>
                             </div>
-                            <div class="row">
+                            <div class="row">  
                                 <div class="col-md-12">
                                     <div class="testi-all text-center">
                                         <div class="testimonial-active

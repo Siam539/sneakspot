@@ -14,7 +14,7 @@
                                             <p>
                                                 <i class="pe-7s-mail"></i>
                                                 <span>
-                                                    <a href="mailto:contact@company.com">SneakSpot@gmail.com</a>
+                                                    <a href="mailto:contact@company.com">sneakspot.ge@gmail.com</a>
                                                 </span>
                                             </p>
                                             <p>
@@ -26,7 +26,7 @@
                                             <ul>
                                                 <li><a href="404.php"><i class="fa fa-facebook"></i></a></li>
                                              
-                                                <li><a href="404.php"><i class="fa fa-google-plus"></i></a></li>
+
                                                 <li><a href="404.php"><i class="fa fa-instagram"></i></a></li>
                                               
                                             </ul>

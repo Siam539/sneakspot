@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/menu_elastic.css" />
+    <link rel="stylesheet" href="extraCss.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
