@@ -84,9 +84,6 @@ $sneaker = $req->fetchAll();
                 <div class="banner-style-2-img mb-res">
                     <img src="sale.jpg" alt="">
                     <div class="banner-style-2-dec">
-                        
-                    
-                   
                     </div>
                 </div>
             </div>

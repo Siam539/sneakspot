@@ -22,7 +22,7 @@ require_once "header.php"
                 </div>
                 <div class="whatsapp">
                     <img class="whatsappimg" src="Whatsapp.png" alt="">
-                    <a href="https://wa.me/41706405091">COMMANDER</a>
+                    <a href="https://wa.me/41786405091">COMMANDER</a>
                 </div>
             </div>
         </div>
