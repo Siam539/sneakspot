@@ -62,27 +62,27 @@ $sneaker = $req->fetchAll();
         <div class="row">
             <div class="col-md-4">
                 <div class="banner-style-2-img mb-res">
-                    <img src="sale.jpg" alt="">
+                    <img src="brands/dior.jpg" alt="">
                     <div class="banner-style-2-dec">
-                        
-                    
-                   
+
+
+
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="banner-style-2-img mb-res">
-                    <img src="sale.jpg" alt="">
+                    <img src="brands/jordan.jpg" alt="">
                     <div class="banner-style-2-dec">
-                        
-                    
-                   
+
+
+
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="banner-style-2-img mb-res">
-                    <img src="sale.jpg" alt="">
+                    <img src="brands/nike.jpg" alt="">
                     <div class="banner-style-2-dec">
                     </div>
                 </div>
@@ -101,46 +101,61 @@ $sneaker = $req->fetchAll();
         </div>
         <div class="row portfolio-style-2">
             <div class="grid">
-                
-            <?php
-    foreach ($sneaker as $data) :
-    ?>
-         
-           <a href="single-product.php?sneaker=<?php echo $data["id"] ?>">
 
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
-                    <div class="single-shop">
-                        <div class="shop-img">
-                           <img src="<?php echo $data["image"] ?>" alt="" />
-                            <div class="shop-quick-view">
-                              <!--<a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
-                                    <i class="pe-7s-look"></i>
-                                </a> -->  
-                            </div>
-                            <div class="price-up-down">
-                                <span class="sale-new">-30%</span>
-                            </div>
-                         
-                        </div>
-                        <div class="shop-text-all">
-                            <div class="title-color fix">
-                                <div class="shop-title f-left">
-                                    <h3><?php echo $data["model"] ?></h3>
-                                </div>
-                                <span class="price f-right">
-                                <s><?php echo $data["Dprice"] ?> CHF</s>
-                                <span class="new"> <?php echo $data["price"] ?> CHF</span>
-                                   
-
-                                </span>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-</a>
                 <?php
-    endforeach
-    ?>
+                foreach ($sneaker as $data) :
+                    $percent = ($data['price'] * $data['percent_show']) / 100;
+                    $newprice = $data['price'] - $percent;
+
+
+                ?>
+
+                    <a href="single-product.php?sneaker=<?php echo $data["id"] ?>">
+
+                        <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+                            <div class="single-shop">
+                                <div class="shop-img">
+                                    <img src="<?php echo $data["image"] ?>" alt="" />
+                                    <div class="shop-quick-view">
+                                        <!--<a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+<i class="pe-7s-look"></i>
+                                </a> -->
+                                    </div>
+                                    <div class="price-up-down">
+                                        <span class="sale-new"> -<?php echo $data['percent_show'] ?>%<span class="sale-new"> </span>
+
+                                        </span>
+                                    </div>
+
+                                </div>
+                                <div class="shop-text-all">
+                                    <div class="title-color fix">
+                                        <div class="shop-title f-left">
+                                            <h3><?php echo $data["model"] ?></h3>
+                                        </div>
+                                        <span class="price f-right">
+                                            <s><?php echo $data["price"] ?> CHF</s>
+                                            <span class="new"> <?php echo $newprice; ?> CHF</span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <a href="call.php"><button class="wishlist-button"><i class="pe-7s-cart"></i></button></a>
+                                    <form method="POST" action="add_to_favorites.php">
+                                        <input type="hidden" name="favorite_id" value="<?php echo $data['id']; ?>">
+                                        <button class="wishlist-button" type="submit">❤</button>
+
+
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                <?php
+                endforeach
+                ?>
 
             </div>
         </div>

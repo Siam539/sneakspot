@@ -19,6 +19,8 @@ $statement = $pdo->prepare($sql);
 $param = [':id' => $id];
 $statement->execute($param);
 $sneaker = $statement->fetch(PDO::FETCH_ASSOC);
+$percent = ($sneaker['price'] * $sneaker['percent_show']) / 100;
+$newprice = $sneaker['price'] - $percent;
 
 
 $sqlimage = "SELECT * FROM product_images WHERE product_id = :id";
@@ -66,7 +68,7 @@ $productimage = $req->fetchAll();
 
                     </div>
 
-                    
+
 
                     <!-- Nav tabs -->
                     <div class="details-tab owl-carousel">
@@ -81,7 +83,7 @@ $productimage = $req->fetchAll();
             <div class="col-md-7">
                 <div class="single-product-content">
                     <div class="single-product-dec pb-30  for-pro-border">
-                        <h2><?php echo $sneaker["model"] ?></h2>
+                        <h2><?php echo $sneaker["model"] ?> </h2>
                         <span class="ratting">
                             <i class="fa fa-star active"></i>
                             <i class="fa fa-star active"></i>
@@ -89,8 +91,13 @@ $productimage = $req->fetchAll();
                             <i class="fa fa-star active"></i>
                             <i class="fa fa-star active"></i>
                         </span>
-                       <h4><s><?php echo $sneaker["Dprice"] ?> CHF</s></h4> 
-                        <h2><?php echo $sneaker["price"] ?> CHF</h2>
+                        <h2 class="sl30">-<?php echo $sneaker['percent_show'] ?>%</h2>
+                        <br>
+
+                        <h4><s><?php echo $sneaker['price'] ?> CHF</s></h4>
+
+                        <h2><?php echo $newprice ?> CHF</h2>
+
 
                     </div>
                     <div class="single-cart-color for-pro-border">

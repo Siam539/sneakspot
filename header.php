@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+
 
 <head>
     <meta charset="utf-8">
@@ -8,12 +8,12 @@
     <title>SneakSpot</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="icon.png">
-    
+
     <!-- all css here -->
-    
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -32,24 +32,25 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+
 <body>
-   
-        <div class="content-wrap">
-            <div class="content">
-                <!-- header start -->
-                <header class="header-area home-style-2">
-                    <div class="header-bottom">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-3 col-xs-6">
-                                    <div class="logo">
-                                        <a href="index.php">
-                                            <img src="LogoSneak1.png" alt="">
-                                        </a>
-                                    </div>
+
+    <div class="content-wrap">
+        <div class="content">
+            <!-- header start -->
+            <header class="header-area home-style-2">
+                <div class="header-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-3 col-xs-6">
+                                <div class="logo">
+                                    <a href="index.php">
+                                        <img src="LogoSneak1.png" alt="">
+                                    </a>
                                 </div>
-                                <div class="col-md-8 col-sm-9 col-xs-6">
-                                    
+                            </div>
+                            <div class="col-md-8 col-sm-9 col-xs-6">
+
                                 <!--  
                                 <div class="cart-menu">
                                         <div class="user user-style-3 f-right">
@@ -73,41 +74,45 @@
                                             </div>
                                         </div>
                                       -->
-                                        <div class="main-menu f-right">
-                                            <nav>
-                                                <ul>
-                                                    <li><a href="index.php">Sneakers</a>
-                                                
-                                                      
-                                                    </li>
-                                                  
-                                                   
-                                                  
-                                                  
-                                                 
-                                                    <li><a href="about-us.php">contact</a></li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                    </div>
+                                <div class="main-menu f-right">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="favorites.php">❤</a></li>
+                                            <li><a href="index.php">Sneakers</a>
+
+
+
+                                            </li>
+
+
+
+
+
+                                            <li><a href="about-us.php">contact</a></li>
+                                            <li><a href="admin_login.php">ADMIN</a>
+                                        </ul>
+                                    </nav>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </header>
-                <div class="mobile-menu-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="mobile-menu">
-                    <nav id="dropdown">
-                        <ul>
-                            <li><a href="index.php">SNEAKERS</a></li>
-                            <li><a href="about-us.php">CONTACT</a></li>
-                        </ul>
-                    </nav>
+                </div>
+        </div>
+        </header>
+        <div class="mobile-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mobile-menu">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="index.php">SNEAKERS</a></li>
+                                    <li><a href="about-us.php">CONTACT</a></li>
+                                    <li><a href="favorites.php">❤</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>

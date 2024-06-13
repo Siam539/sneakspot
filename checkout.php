@@ -3,7 +3,7 @@
 
 <!-- Mirrored from nahartheme.com/tf/jerin-preview/jerin/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Feb 2024 18:00:42 GMT -->
 <head>
-        <meta charset="utf-8">
+<meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Jerin - Minimal eCommerce HTML Template</title>
         <meta name="description" content="">

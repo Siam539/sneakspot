@@ -63,7 +63,7 @@
                                         <p>
                                             Copyright © 2024
                                             <a href="#"> KAZI Al-Tahsib Siam<a>
-                                            . All Rights Reserved.
+                                            . Tous droits réservés.
                                         </p>
                                     </div>
                               
