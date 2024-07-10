@@ -115,7 +115,7 @@ $sneaker = $req->fetchAll();
                         <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
                             <div class="single-shop">
                                 <div class="shop-img">
-                                    <img src="<?php echo $data["image"] ?>" alt="" />
+                                    <img src="uploads/<?php echo $data["image"] ?>" alt="" />
                                     <div class="shop-quick-view">
                                         <!--<a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
 <i class="pe-7s-look"></i>
@@ -123,8 +123,6 @@ $sneaker = $req->fetchAll();
                                     </div>
                                     <div class="price-up-down">
                                         <span class="sale-new"> -<?php echo $data['percent_show'] ?>%<span class="sale-new"> </span>
-
-                                        </span>
                                     </div>
 
                                 </div>

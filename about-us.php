@@ -14,14 +14,14 @@ require_once "header.php"
         <div class="row">
             <div class="col-md-12">
                 <div class="about-img">
-                    
+
 
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- about end -->  
+<!-- about end -->
 <!-- service area start  -->
 <div class="choose-us-skill-area pt-100 pb-70 gray-bg">
     <div class="container">
@@ -30,7 +30,8 @@ require_once "header.php"
                 Pourquoi nous choisir ?
                 <i class="fa fa-star"></i>
             </h2>
-            <p>La qualité est notre priorité absolue. Nous assurons l'excellence de nos chaussures et mettons un point d'honneur à satisfaire pleinement nos clients.</p>
+            <p>La qualité est notre priorité absolue. Nous assurons l'excellence de nos chaussures et mettons un point
+                d'honneur à satisfaire pleinement nos clients.</p>
         </div>
 
         <div class="row">
@@ -43,7 +44,8 @@ require_once "header.php"
                             </div>
                             <div class="choose-text">
                                 <h3>Livraison </h3>
-                                <p>Nous offrons la livraison gratuite dans tout Genève. Pour les autres régions, des frais d'envoi sont appliqués</p>
+                                <p>Nous offrons la livraison gratuite dans tout Genève. Pour les autres régions, des
+                                    frais d'envoi sont appliqués</p>
                             </div>
                         </div>
                         <div class="single-choose col-md-4 mb-30">
@@ -52,7 +54,8 @@ require_once "header.php"
                             </div>
                             <div class="choose-text">
                                 <h3>Un meilleur service client</h3>
-                                <p>Disponibles 24/24 et 7/7, nous sommes à votre disposition pour toutes vos questions. Remboursement en moins de 10 minutes</p>
+                                <p>Disponibles 24/24 et 7/7, nous sommes à votre disposition pour toutes vos questions.
+                                    Remboursement en moins de 10 minutes</p>
                             </div>
                         </div>
                         <div class="single-choose col-md-4 mb-30">
@@ -61,7 +64,7 @@ require_once "header.php"
                             </div>
                             <div class="choose-text">
                                 <h3>Paiement sécurisé</h3>
-                                <p>Possibilité de payer <br> Twint / PayPal / Cash </p> 
+                                <p>Possibilité de payer <br> Twint / PayPal / Cash </p>
                             </div>
                         </div>
                     </div>

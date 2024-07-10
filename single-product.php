@@ -59,7 +59,7 @@ $productimage = $req->fetchAll();
                         ?>
                             <div class="tab-pane <?php echo $key == "0" ? "active" : "" ?> " id="product<?php echo $key ?>">
                                 <div class="large-img">
-                                    <img src="<?php echo $image["image"] ?>" alt="" />
+                                    <img src="uploads/<?php echo $image["image"] ?>" alt="" />
                                 </div>
                             </div>
                         <?php
@@ -73,7 +73,7 @@ $productimage = $req->fetchAll();
                     <!-- Nav tabs -->
                     <div class="details-tab owl-carousel">
                         <?php foreach ($productimage as $key => $image) : ?>
-                            <div class=""><a href="#product<?php echo $key ?>" data-toggle="tab"><img src="<?php echo $image["image"] ?>" alt="" /></a></div>
+                            <div class=""><a href="#product<?php echo $key ?>" data-toggle="tab"><img src="uploads/<?php echo $image["image"] ?>" alt="" /></a></div>
                         <?php
                         endforeach
                         ?>
